@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 import java.util.Arrays;
 import java.util.List;
 
@@ -51,9 +51,8 @@ public class CountryInitializationService {
         Country country = new Country();
         country.setCode(code);
         country.setName(name);
-        country.setIsoCode(isoCode);
         country.setPhoneCode(phoneCode);
-        country.setActive(true);
+        country.setIsActive(true);
         return country;
     }
 }

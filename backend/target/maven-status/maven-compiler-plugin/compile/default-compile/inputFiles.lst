@@ -5,6 +5,7 @@ C:\Users\HP\Documents\GitHub\E_COMPTA_IA\E COMPTA IA INTERNATIONAL\E-COMPTA-IA-N
 C:\Users\HP\Documents\GitHub\E_COMPTA_IA\E COMPTA IA INTERNATIONAL\E-COMPTA-IA-NEW\backend\src\main\java\com\ecomptaia\repository\PlanComptableRepository.java
 C:\Users\HP\Documents\GitHub\E_COMPTA_IA\E COMPTA IA INTERNATIONAL\E-COMPTA-IA-NEW\backend\src\main\java\com\ecomptaia\repository\CountryRepository.java
 C:\Users\HP\Documents\GitHub\E_COMPTA_IA\E COMPTA IA INTERNATIONAL\E-COMPTA-IA-NEW\backend\src\main\java\com\ecomptaia\entity\LigneEcriture.java
+C:\Users\HP\Documents\GitHub\E_COMPTA_IA\E COMPTA IA INTERNATIONAL\E-COMPTA-IA-NEW\backend\src\main\java\com\ecomptaia\dto\RegisterRequest.java
 C:\Users\HP\Documents\GitHub\E_COMPTA_IA\E COMPTA IA INTERNATIONAL\E-COMPTA-IA-NEW\backend\src\main\java\com\ecomptaia\service\CountryInitializationService.java
 C:\Users\HP\Documents\GitHub\E_COMPTA_IA\E COMPTA IA INTERNATIONAL\E-COMPTA-IA-NEW\backend\src\main\java\com\ecomptaia\EComptaIaApplication.java
 C:\Users\HP\Documents\GitHub\E_COMPTA_IA\E COMPTA IA INTERNATIONAL\E-COMPTA-IA-NEW\backend\src\main\java\com\ecomptaia\entity\Tiers.java

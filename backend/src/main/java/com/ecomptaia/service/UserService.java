@@ -50,7 +50,7 @@ public class UserService implements UserDetailsService {
         user.setPasswordHash(passwordEncoder.encode(registerRequest.getPassword()));
         user.setFirstName(registerRequest.getFirstName());
         user.setLastName(registerRequest.getLastName());
-        user.setRole(registerRequest.getRole());
+        user.setRole(User.Role.USER); // Rôle par défaut
         user.setIsActive(true);
 
         return userRepository.save(user);

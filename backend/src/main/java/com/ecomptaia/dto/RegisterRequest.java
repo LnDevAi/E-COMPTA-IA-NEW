@@ -1,8 +1,8 @@
 package com.ecomptaia.dto;
 
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Size;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 
 public class RegisterRequest {
 
@@ -28,6 +28,7 @@ public class RegisterRequest {
 
     private String phone;
     private String countryCode;
+    private String role = "USER"; // Rôle par défaut
 
     // Constructeurs
     public RegisterRequest() {}
@@ -95,6 +96,14 @@ public class RegisterRequest {
 
     public void setCountryCode(String countryCode) {
         this.countryCode = countryCode;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
     }
 
     @Override
